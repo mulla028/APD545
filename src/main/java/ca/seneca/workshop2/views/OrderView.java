@@ -61,7 +61,6 @@ public class OrderView extends Pane {
 
         Image img = new Image("https://img.icons8.com/doodle/96/pizza.png");
 
-
         Label header = new Label("Pizza Bakery Online ");
 
         Label customerInfo = new Label("Customer's information");
@@ -232,9 +231,11 @@ public class OrderView extends Pane {
         this.cellTf.setPrefSize(115, 15);
 
 
+        // Set "Place Order" button
         this.pOrder = new Button("Place Order");
         this.pOrder.relocate(700, 555);
 
+        // Set "Clear" Button
         this.cOrder = new Button("Clear");
         this.cOrder.relocate( 645, 555);
 
@@ -270,6 +271,8 @@ public class OrderView extends Pane {
 
     }
 
+    // clear all fields, radiobuttons and checkboxes
+    // used in controller class
     public void clear() {
         // Cancel selection from all toggle groups
         tgSize.selectToggle(null);
@@ -287,6 +290,7 @@ public class OrderView extends Pane {
         }
     }
 
+    // Getters
     public TextField getCellTf() {
         return cellTf;
     }

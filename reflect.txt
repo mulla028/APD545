@@ -1,0 +1,12 @@
+/**********************************************
+Workshop #2 - Reflection
+Course: APD  - Semester 5
+Last Name: Mullagaliev
+First Name: Amir
+ID:128102225
+Section: ZAA
+This assignment represents my own work in accordance with Seneca Academic Policy.
+Signature AM
+Date: 10.07.2024
+**********************************************/
+This is my first workshop working on JavaFX application, it was very interesting experience due to the freedom that we have, and the imagination we can use. For this application, I created 3 model classes Pizza, Customer and Order. I made a decision to create 3 model classes; for the reason, that this a better practice to have everything separated in different files, simple to manage. Secondly, creating Order class I realized, it will not be possible to create everything in a single class because it simply hurts eyes. Creating classes I eventually came up with regular String array data structure. In my opinion, it is the best structure for this workshop, as we do not have to make something complicated. We do not store any key data related to certain values, so I didn't use maps etc... Overall, I don't think that we could have used something beside Arrays and Lists. I really liked this workshop, hope throughout this course other workshops are going to be interesting the same way. 

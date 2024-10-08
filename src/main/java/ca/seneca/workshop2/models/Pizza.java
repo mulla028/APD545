@@ -3,6 +3,7 @@ package ca.seneca.workshop2.models;
 import java.util.ArrayList;
 
 public class Pizza {
+    // private attributes
     private String size;
     private double price;
     private String crust;
@@ -12,10 +13,12 @@ public class Pizza {
     private int nmSize;
     private int mSize;
 
+    // Default constructor
     public Pizza(){
 
     }
 
+    // 5-argument constructor
     public Pizza(String size, double price, String crust, String[] nm, String[] m) {
         this.size = size;
         this.price = price;
@@ -25,6 +28,7 @@ public class Pizza {
     }
 
 
+    // Getters & Setters
     public String getSize() {
         return size;
     }
@@ -65,6 +69,7 @@ public class Pizza {
         return mToppings.length;
     }
 
+    // add to meat and non meat list methods
     public void addToNonMeat(String tName) {
         this.nmToppings[this.nmSize++] = tName;
     }
